@@ -11,7 +11,7 @@
         --cards-bg-color:#FFEED8;
         --cards-stroke-color: #707070;
         --text-color: #707070;
-        --bacground-color: #FFFEFC;
+        --background-color: #FFFEFC;
         --primary-font: "Playfair Display";
         --secondary-font: "Clicker Script";
     }
@@ -127,3 +127,51 @@
 .btn-small { padding: 0.6875em 1.875em; }
 
 /* e: buttons */
+
+/* blog */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.section__columns {
+    display: flex;
+    gap: 16px;
+}
+.section__column {
+    text-align: center;
+}
+.section__title {
+    font: normal normal bold 3.375em var(--primary-font);
+    letter-spacing: 0;
+    color: var(--coffee-color);
+    margin-bottom: 1.1875rem;
+}
+
+.section__subtitle
+{
+    font-size: 1.25em;
+    color: var(--cards-stroke-color);
+    margin-bottom: 2.1875rem;
+
+}
+
+.section__column--title {
+    font: normal normal normal 1.1875em var(--primary-font);
+    letter-spacing: 0;
+    color: var(--coffee-color);
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+}
+.section__column--subtitle {
+    font: normal normal 300 0.875em var(--secondary-font);
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+/* e: blog */
+
