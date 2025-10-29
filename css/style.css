@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+
+/* variables */
+    :root {
+        --white-color: #FFFFFF;
+        --black-color: #000000;
+
+        --primary-font: "Nunito Sans";
+        --secondary-font: "Open Sans";
+    }
+/* e: variables */
+
+    body { font-family: var(--primary-font), sans-serif; font-size: 16px;}
+
+/* container */
+
+    .container {
+        width: 1088px;
+        margin: 0 auto;
+    }
+
+/* e: container */
+
