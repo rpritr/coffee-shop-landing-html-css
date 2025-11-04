@@ -25,7 +25,8 @@
 /* container */
 
     .container {
-        width: 1200px;
+       /* width: 90%;*/
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -131,6 +132,27 @@
 
 /* e: buttons */
 
+.section__divider--blast {
+    background-image: url(../images/coffee_blast.png);
+    background-repeat: no-repeat;
+    min-height: 390px;
+    background-size: 600px;
+    margin-top: -200px;
+
+}
+.section__divider--blast-right {
+    background-image: url(../images/coffee_blast.png);
+    background-repeat: no-repeat;
+    min-height: 390px;
+    background-size: 600px;
+    margin-top: -200px;
+
+    transform: scaleX(-1);
+}
+
+.feedback--splash {
+    margin-top: 200px;
+}
 /* blog */
 
 .section {
