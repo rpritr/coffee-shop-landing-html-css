@@ -1,5 +1,7 @@
 * { box-sizing: border-box; }
-
+.clearfix::after {
+    clear: both;
+}
 /* variables */
     :root {
         --white-color: #FFFFFF;
@@ -178,3 +180,18 @@
 }
 /* e: blog */
 
+#discover .section__columns {
+    align-items: center;
+}
+#discover .section__column {
+    width: 50%;
+    text-align: left;
+}
+#discover .section__column--title {
+    font-size: 3.375em;
+}
+#discover .section__column--subtitle {
+    font-size: 1.25em;
+    font-family: var(--primary-font), sans-serif;
+}
+#discover img {float: right;}
