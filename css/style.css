@@ -358,3 +358,40 @@ form.section__newsletter--form {
     margin-top: 550px;
 
 }
+
+#footer {
+    background-image: url(../images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white-color);
+}
+.footer__columns {
+    display: flex;
+    gap: 40px;
+}
+.footer__column {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.footer__text {
+    line-height: 1.375em;
+    font-size: 0.875em;
+}
+.footer__column--list-item a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.125em;
+    line-height: 2.625em;
+}
+.footer__column--title {
+    font-size: 1.625em;
+}
+#footer .first-column { width: 40%; }
+
+.footer__social-icons img { margin-right: 20px; }
